@@ -1,0 +1,28 @@
+.container {
+    margin-left: 0;
+    position: center;
+
+}
+
+.food-container {
+    background-color: rgba(255, 255, 255, .1);
+    height: max-content;
+
+}
+
+@media (min-width:  1000px) {
+    .food-container{
+        margin-left: 100px;
+        margin-top: 100px;
+    }
+}
+
+.img-div{
+    width: 100px;
+    height: 100px;
+}
+
+.img{
+    width: 75px;
+    height: 75px;
+}
